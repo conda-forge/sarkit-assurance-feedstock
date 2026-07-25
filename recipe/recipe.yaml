@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.2.1"
+  version: "0.3.0"
 
 package:
   name: sarkit-assurance
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sarkit-assurance/sarkit_assurance-${{ version }}.tar.gz
-  sha256: 5818405fd3fea6ab582317da468401658d79dd26fa1a4f68535f6ce1a909b2bc
+  sha256: e52f9b58bed266e85fd09a6d667aab681aa388010b01bd7b988bb8517db2c25f
 
 build:
   number: 0
