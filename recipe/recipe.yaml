@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.3.0"
+  version: "0.5.0"
 
 package:
   name: sarkit-assurance
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sarkit-assurance/sarkit_assurance-${{ version }}.tar.gz
-  sha256: e52f9b58bed266e85fd09a6d667aab681aa388010b01bd7b988bb8517db2c25f
+  sha256: d0ed6074c1d15f1d438368b81c891c5cefe5b2359a25f85ac8c8b2b69ca7948d
 
 build:
   number: 0
@@ -30,7 +30,8 @@ requirements:
     - plotly >=6.5.2
     - pyproj >=3.7.2
     - sarkit >=1.8.0
-    - scipy >=1.15.1
+    - sarkit-processing >=0.1.0,<0.3
+    - scipy >=1.15.0
 
 tests:
   - python:
